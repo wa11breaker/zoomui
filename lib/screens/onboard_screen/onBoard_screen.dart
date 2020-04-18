@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:zoomUI/screens/join_meeting_screen/join_meeting.dart';
 import 'package:zoomUI/screens/login_screem/signin-screen.dart';
+import 'package:zoomUI/screens/login_screem/signup_screem.dart';
 import 'package:zoomUI/screens/onboard_screen/onboard.dart';
 import 'package:zoomUI/widgets/button.dart';
 
@@ -40,7 +41,9 @@ class OnBoardHome extends StatelessWidget {
                     children: [
                       GestureDetector(
                         behavior: HitTestBehavior.translucent,
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>SignUp()));
+                        },
                         child: Text(
                           'Sign Up',
                           style: TextStyle(
