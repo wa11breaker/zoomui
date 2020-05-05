@@ -1,0 +1,68 @@
+{"categoris" :[
+    {
+        "name": "Properties",
+        "key": "properties",
+        "subcategories": [
+            {
+                "name": "For Sale: Houses & Apartments",
+                "key": "sale_houses_and_apartments"
+            },
+            {
+                "name": "For Rent: Houses & Apartments",
+                "key": "rent_houses_and_apartments"
+            },
+            {
+                "name": "Lands & Plots",
+                "key": "lands_and_plots"
+            },
+            {
+                "name": "For Rent: Shops & Offices",
+                "key": "rent_shops_and_offices"
+            },
+            {
+                "name": "For Sale: Shops & Offices",
+                "key": "sale_shops_and_offices"
+            }
+        ]
+    },
+    {
+        "name": "Mobiles",
+        "key": "properties",
+        "subcategories": [
+            {
+                "name": "Mobile Phones",
+                "key": "mobile_phones"
+            },
+            {
+                "name": "Accessories",
+                "key": "accessories"
+            },
+            {
+                "name": "Tablets",
+                "key": "tablets"
+            }
+        ]
+    },
+    {
+        "name": "Pets",
+        "key": "pets",
+        "subcategories": [
+            {
+                "name": "Dogs",
+                "key": "dogs"
+            },
+            {
+                "name": "Cats",
+                "key": "cats"
+            },
+            {
+                "name": "Other Pets",
+                "key": "other_pets"
+            },
+            {
+                "name": "Pet Food & Accessories",
+                "key": "pet_accessories"
+            }
+        ]
+    }
+]}
